@@ -129,7 +129,7 @@ li,
   --tp-grey-1: #fcfaf7;
   --tp-grey-2: #283734;
   --tp-grey-3: #f4f9f8;
-  --tp-red-1: #d34d00;
+  --tp-red-1: #009EFF;
   --tp-text-body: #6f7775;
   --tp-theme-1: #282f6b;
   --tp-theme-2: #009EFF;
@@ -1293,13 +1293,13 @@ color: #fff;
   background-color: #2CAE76;
 }
 .tp-theme-color-btn.tp-color-settings-btn[data-color="#FF5A1B"] {
-  background-color: #FF5A1B;
+  background-color: #009EFF;
 }
 .tp-theme-color-btn.tp-color-settings-btn[data-color="#03041C"] {
   background-color: #03041C;
 }
 .tp-theme-color-btn.tp-color-settings-btn[data-color="#ED212C"] {
-  background-color: #ED212C;
+  background-color: #009EFF;
 }
 .tp-theme-color-input {
   margin-top: 15px;
@@ -1617,7 +1617,7 @@ color: #fff;
   z-index: -1;
 }
 .tp-btn-text:hover {
-  color: #fbd45b;
+  color: #009EFF;
 }
 
 .btn-link-sm {
@@ -2590,7 +2590,7 @@ color: #fff;
   text-transform: uppercase;
 }
 .breadcrumb__list span a {
-  color: #fbd663;
+  color: #009EFF;
   font-size: 14px;
   font-weight: 700;
   font-size: 16px;
@@ -3296,7 +3296,7 @@ button:focus:not(:focus-visible) {
 }
 
 .tp-section-subtitle {
-  color: #F26B1D;
+  color: var(--tp-border-primary);
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
@@ -5079,11 +5079,13 @@ button:focus:not(:focus-visible) {
 }
 
 .footer__logo .logo img {
-  max-width: 200px; /* Default logo size for larger screens */
+  max-width: 250px; /* Default logo size for larger screens */
   /* width: 100%; */
   
   
 }
+
+
 
 .app-links-container {
   display: flex;
@@ -5106,7 +5108,7 @@ button:focus:not(:focus-visible) {
   }
 
   .footer__logo .logo img {
-    max-width: 400px; /* Reduce logo size for smaller screens */
+    max-width: 40vh; /* Reduce logo size for smaller screens */
   }
 
   .app-links-container {
@@ -7043,7 +7045,7 @@ button:focus:not(:focus-visible) {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #f4b12b;
+  background-color: var(--tp-heading-primary);
   -webkit-transition: opacity 500ms ease, visibility 500ms ease, -webkit-transform 500ms ease;
   transition: opacity 500ms ease, visibility 500ms ease, -webkit-transform 500ms ease;
   transition: opacity 500ms ease, visibility 500ms ease, transform 500ms ease;
