@@ -1005,6 +1005,10 @@ color: #fff;
 
 /* End For Loan Calculator */
 
+.text-color-1 span a{
+  color: #7df3d7!important;
+}
+
 /* Recently added - newly added end */
 
 
@@ -2590,7 +2594,7 @@ color: #fff;
   text-transform: uppercase;
 }
 .breadcrumb__list span a {
-  color: #009EFF;
+  color: var(--tp-border-primary);
   font-size: 14px;
   font-weight: 700;
   font-size: 16px;
